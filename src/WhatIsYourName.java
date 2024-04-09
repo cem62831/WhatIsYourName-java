@@ -17,6 +17,7 @@ public class WhatIsYourName {
 		String name;
 		name = JOptionPane.showInputDialog("Hello! What is your name?");
 		JOptionPane.showMessageDialog(null, "Nice to meet you,\n "+name+"! <3");
+		System.out.print("I am Charlotte");
 
 	}
 
